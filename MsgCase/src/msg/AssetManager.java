@@ -5,7 +5,7 @@ import java.util.*;
 
 public class AssetManager
 {
-
+  @Deprecated
   public static void manageInvestment ()
   //
   // modifies an investment.

@@ -164,7 +164,7 @@ class UserInterface
 
 	    case '2':
 		clearScreen ();
-		AssetManager.manageInvestment ();
+		InvestmentManager.manageInvestment();
 		break;
 
             case '3':
