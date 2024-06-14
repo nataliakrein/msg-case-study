@@ -1,7 +1,6 @@
 package msg;
 
 import java.io.*;
-import java.util.*;
 
 class MSGApplication
 {
