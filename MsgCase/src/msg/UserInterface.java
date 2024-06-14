@@ -231,7 +231,7 @@ class UserInterface
 
 		case '2':
 	            clearScreen ();
-		    AssetManager.manageMortgage ();
+		    MortgageManager.manageMortgage ();
 	            break;
 
 		case '3':
