@@ -1,7 +1,6 @@
 package msg;
 
 import java.io.*;
-import java.util.*;
 
 class UserInterface
 {
@@ -164,7 +163,7 @@ class UserInterface
 
 	    case '2':
 		clearScreen ();
-		AssetManager.manageInvestment ();
+		InvestmentManager.manageInvestment();
 		break;
 
             case '3':
@@ -231,7 +230,7 @@ class UserInterface
 
 		case '2':
 	            clearScreen ();
-		    AssetManager.manageMortgage ();
+		    MortgageManager.manageMortgage ();
 	            break;
 
 		case '3':
